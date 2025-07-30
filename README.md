@@ -2,7 +2,7 @@
 
 A modern Flutter application that displays a virtual membership card with dynamically generated QR codes.
 
-## 🌟 Features
+## Features
 
 - **Beautiful UI Design**: Modern gradient card design with smooth animations
 - **Dynamic QR Code Generation**: QR codes are generated in real-time based on user data
@@ -10,7 +10,20 @@ A modern Flutter application that displays a virtual membership card with dynami
 - **Responsive Design**: Optimized for various screen sizes
 - **Smooth Animations**: Fade transitions and visual feedback for better UX
 
+### 🎥 Demo
+
+![Screen Recording 2025-07-30 124512](https://github.com/user-attachments/assets/ca0f1a39-5808-404e-97db-f9e407364a8d)
+
+
 ## 📱 Screenshots
+
+<img width="360" height="764" alt="Screenshot 2025-07-30 124430" src="https://github.com/user-attachments/assets/808a35c9-f500-43dd-a7df-eb842b3ad303" />
+
+
+| **Base Scanner Output**                                                                                                | **After Refreshing Scanner**                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/d122b1c4-d4f7-46e4-9257-93b22a395a6e" width="360" height="700" /> | <img src="https://github.com/user-attachments/assets/ddfa27f4-0e49-4828-a261-3504852b7634" width="360" height="700" /> |
+
 
 ### Main Screen
 The app displays a premium-looking membership card with:
@@ -104,16 +117,6 @@ When the "Refresh QR Code" button is pressed:
 3. Fade animation plays for smooth transition
 4. Success snackbar appears to confirm action
 5. Card ID display updates to show new identifier
-
-### Demo
-![Screen Recording 2025-07-30 124512](https://github.com/user-attachments/assets/ca0f1a39-5808-404e-97db-f9e407364a8d)
-
-### Screenshots 
-<img width="360" height="764" alt="Screenshot 2025-07-30 124430" src="https://github.com/user-attachments/assets/808a35c9-f500-43dd-a7df-eb842b3ad303" />
-
-| **Base Scanner Output**                                                                                                | **After Refreshing Scanner Output**                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/d122b1c4-d4f7-46e4-9257-93b22a395a6e" width="360" height="700" /> | <img src="https://github.com/user-attachments/assets/ddfa27f4-0e49-4828-a261-3504852b7634" width="360" height="700" /> |
 
 
 ### Example QR Data Flow
