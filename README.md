@@ -58,8 +58,8 @@ The app displays a premium-looking membership card with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Priyanka1823/virtual-membership-card.git
-   cd virtual-membership-card
+   git clone https://github.com/Priyanka1823/virtual_membership_card.git
+   cd virtual_membership_card
    ```
 
 2. **Install dependencies**
