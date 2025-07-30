@@ -111,11 +111,10 @@ When the "Refresh QR Code" button is pressed:
 ### Screenshots 
 <img width="360" height="764" alt="Screenshot 2025-07-30 124430" src="https://github.com/user-attachments/assets/808a35c9-f500-43dd-a7df-eb842b3ad303" />
 
-### 📤 Base Scanner Output  
-<img src="https://github.com/user-attachments/assets/d122b1c4-d4f7-46e4-9257-93b22a395a6e" width="400" height="300" />
+| **Base Scanner Output**                                                                                                | **After Refreshing Scanner Output**                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/d122b1c4-d4f7-46e4-9257-93b22a395a6e" width="360" height="700" /> | <img src="https://github.com/user-attachments/assets/ddfa27f4-0e49-4828-a261-3504852b7634" width="360" height="700" /> |
 
-### 🔄 After Refreshing Scanner  
-<img src="https://github.com/user-attachments/assets/ddfa27f4-0e49-4828-a261-3504852b7634" width="400" height="300" />
 
 ### Example QR Data Flow
 - **Initial**: `user-id-12345-abcde`
