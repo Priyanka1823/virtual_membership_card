@@ -45,7 +45,7 @@ The app displays a premium-looking membership card with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/virtual-membership-card.git
+   git clone https://github.com/Priyanka1823/virtual-membership-card.git
    cd virtual-membership-card
    ```
 
@@ -63,9 +63,18 @@ The app displays a premium-looking membership card with:
 
 ```
 lib/
-├── main.dart              # Main application entry point
-└── screens/
-    └── membership_card_screen.dart  # Membership card UI and logic
+├── constants/
+│ ├── colors.dart
+│ ├── dimensions.dart
+│ └── text_styles.dart
+├── screen/
+│ └── membership_card_screen.dart
+├── utils/
+│ └── app_utils.dart
+├── widgets/
+│ ├── membership_card.dart
+│ └── refresh_button.dart
+└── main.dart
 ```
 
 ## 🔧 Key Implementation Details
@@ -96,6 +105,20 @@ When the "Refresh QR Code" button is pressed:
 4. Success snackbar appears to confirm action
 5. Card ID display updates to show new identifier
 
+### Demo
+![Screen Recording 2025-07-30 124512](https://github.com/user-attachments/assets/ca0f1a39-5808-404e-97db-f9e407364a8d)
+
+### Screenshots 
+<img width="360" height="764" alt="Screenshot 2025-07-30 124430" src="https://github.com/user-attachments/assets/808a35c9-f500-43dd-a7df-eb842b3ad303" />
+
+**base Scanner output**
+![WhatsApp Image 2025-07-30 at 16 26 49_c225e624](https://github.com/user-attachments/assets/d122b1c4-d4f7-46e4-9257-93b22a395a6e)
+
+**After Refreshing Scanner Output**
+![WhatsApp Image 2025-07-30 at 16 26 48_41c5e31c](https://github.com/user-attachments/assets/ddfa27f4-0e49-4828-a261-3504852b7634)
+
+
+
 ### Example QR Data Flow
 - **Initial**: `user-id-12345-abcde`
 - **After Refresh**: `user-id-12345-abcde-1699123456789`
@@ -107,8 +130,8 @@ When the "Refresh QR Code" button is pressed:
 dependencies:
   flutter:
     sdk: flutter
-  qr_flutter: ^4.1.0      # QR code generation
-  cupertino_icons: ^1.0.2  # iOS-style icons
+  qr_flutter:     # QR code generation
+  cupertino_icons:    # iOS-style icons
 ```
 
 ## 🎨 Design Features
@@ -120,12 +143,6 @@ dependencies:
 - **Typography**: Roboto font family for clean readability
 - **Color Scheme**: Professional blue-gray theme
 
-## 🧪 Testing
-
-Run the test suite:
-```bash
-flutter test
-```
 
 ## 📱 Platform Support
 
